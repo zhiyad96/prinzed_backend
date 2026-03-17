@@ -30,9 +30,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-a*149x6oc1ljhl$3+k2upa9n&zmct!k!o@2bn)44z(g@7j6!!2'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["prinzed-backend-5.onrender.com"]
 
 
 # Application definition
